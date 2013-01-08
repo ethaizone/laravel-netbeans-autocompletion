@@ -9,11 +9,17 @@ How to use?
 ===========
 
 1. Put **ccg.php** to **/application/tasks/** in your laravel projects.
-2. In Netbeans click **Tools** -> **Options**
-3. Click **Editor** -> **Code Completion** tab
-4. Click dropdown change **All languages** to **PHP**
-5. Checkbox **Also Non-Static Methods after "::"**
-6. Click **OK** and reopen Netbeans
+2. open your dos or shell and type this command at your root of laravel project **php artisan ccg:save ide_helper.php**
+You will get **ide_helper.php** for Netbeans use in autocompletion.
+
+Another things that you must do
+==============================
+
+1. In Netbeans click **Tools** -> **Options**
+2. Click **Editor** -> **Code Completion** tab
+3. Click dropdown change **All languages** to **PHP**
+4. Checkbox **Also Non-Static Methods after "::"**
+5. Click **OK** and reopen Netbeans
 
 Credit and Thanks!
 ==================
