@@ -246,17 +246,17 @@ class Ccg_Task extends Task
 	 *
 	 * Usage:
 	 * 		// save to application/ccc.php
-	 * 			php artisan ccc:save
+	 * 			php artisan ccg:save
 	 *
 	 * 		// save file specified by parameter
-	 * 			php artisan ccc:save application/cc_helper.php
+	 * 			php artisan ccg:save application/cc_helper.php
 	 *
 	 * @param string $outfile Output file name
 	 * @return integer Execution result code
 	 */
 	public function save($arguments)
 	{
-		$outfile = count($arguments) == 0 ? $outfile = path('app')."ccc.php" : $arguments[0];
+		$outfile = count($arguments) == 0 ? $outfile = path('app')."ccg.php" : $arguments[0];
 
 		$codes = $this->generator();
 
