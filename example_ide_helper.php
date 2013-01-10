@@ -186,6 +186,18 @@ class Eloquent extends Laravel\Database\Eloquent\Model{
 	 */
 	public function lists($column, $key = null) {}
 	
+	/**
+	 * Add a join clause to the query.
+	 *
+	 * @param  string  $table
+	 * @param  string  $column1
+	 * @param  string  $operator
+	 * @param  string  $column2
+	 * @param  string  $type
+	 * @return Query
+	 */
+	public function join($table, $column1, $operator = null, $column2 = null, $type = 'INNER') {}
+	
 	//Dummy variable - common use
 	
 	/**
