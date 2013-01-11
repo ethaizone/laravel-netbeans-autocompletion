@@ -1,7 +1,7 @@
 laravel-netbeans-autocompletion
 ===============================
 
-Task file of Laravel that run via artisan to generate helper file for autocompletion in Netbeans
+Task file of Laravel that run via artisan to generate helper file for autocompletion in Netbeans.
 
 If you see problem, please open issue. Thanks!
 
@@ -15,11 +15,11 @@ You will get **ide_helper.php** for Netbeans use in autocompletion.
 Another things that you must do
 ==============================
 
-1. In Netbeans click **Tools** -> **Options**
-2. Click **Editor** -> **Code Completion** tab
-3. Click dropdown change **All languages** to **PHP**
-4. Checkbox **Also Non-Static Methods after "::"**
-5. Click **OK** and reopen Netbeans
+1. In Netbeans click **Tools** -> **Options**.
+2. Click **Editor** -> **Code Completion** tab.
+3. Click dropdown change **All languages** to **PHP**.
+4. Checkbox **Also Non-Static Methods after "::"**.
+5. Click **OK** and reopen Netbeans.
 
 Credit and Thanks!
 ==================
