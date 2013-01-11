@@ -115,7 +115,7 @@ class Query extends Laravel\Database\Query{};
 	 * </code>
 	 *
 	 * @param mixed $column
-	 * @return array
+	 * @return Query
 	 */
 	public static function with($column) {}
 
@@ -125,6 +125,86 @@ class Query extends Laravel\Database\Query{};
 	 * @return int
 	 */
 	public static function count() {}
+	
+	//From /laravel/database/query.php
+	
+	/**
+	 * Add a where condition to the query.
+	 *
+	 * @param  string  $column
+	 * @param  string  $operator
+	 * @param  mixed   $value
+	 * @param  string  $connector
+	 * @return Query
+	 */
+	public function where($column, $operator = null, $value = null, $connector = \'AND\') {}
+	
+	/**
+	 * Add a where in condition to the query.
+	 *
+	 * @param  string  $column
+	 * @param  array   $values
+	 * @param  string  $connector
+	 * @param  bool    $not
+	 * @return Query
+	 */
+	public function where_in($column, $values, $connector = \'AND\', $not = false) {}
+	
+	/**
+	 * Add an ordering to the query.
+	 *
+	 * @param  string  $column
+	 * @param  string  $direction
+	 * @return Query
+	 */
+	public function order_by($column, $direction = \'asc\') {}
+	
+	/**
+	 * Set the query limit.
+	 *
+	 * @param  int  $value
+	 * @return Query
+	 */
+	public function take($value) {}
+	
+	/**
+	 * Find a record by the primary key.
+	 *
+	 * @param  int     $id
+	 * @param  array   $columns
+	 * @return Query
+	 */
+	public function find($id, $columns = array(\'*\')) {}
+
+	/**
+	 * Add an array of columns to the SELECT clause.
+	 *
+	 * @param  array  $columns
+	 * @return Query
+	 */
+	public function select($columns = array(\'*\')) {}
+	
+	/**
+	 * Get an array with the values of a given column.
+	 *
+	 * @param  string  $column
+	 * @param  string  $key
+	 * @return array
+	 */
+	public function lists($column, $key = null) {}
+	
+	/**
+	 * Add a join clause to the query.
+	 *
+	 * @param  string  $table
+	 * @param  string  $column1
+	 * @param  string  $operator
+	 * @param  string  $column2
+	 * @param  string  $type
+	 * @return Query
+	 */
+	public function join($table, $column1, $operator = null, $column2 = null, $type = \'INNER\') {}
+	
 			',	
 		),
 		'Log' => array(
