@@ -1,7 +1,7 @@
 laravel-netbeans-autocompletion
 ===============================
 
-Task file of Laravel that run via artisan to generate helper file for autocompletion in Netbeans.
+Task file of Laravel that run via artisan to generate helper file for autocompletion in Netbeans. <a href="example_ide_helper.php">Example code that I generated</a>.
 
 If you see problem, please open issue. Thanks!
 
@@ -25,4 +25,4 @@ Credit and Thanks!
 ==================
 
 - Inspired and base code : http://forums.laravel.io/viewtopic.php?id=742&p=2
-- Example code : https://github.com/danielboendergaard/laravel-helpers/blob/master/ide_helper.php
+- Guide code (for me) : https://github.com/danielboendergaard/laravel-helpers/blob/master/ide_helper.php
