@@ -1,7 +1,7 @@
 laravel-netbeans-autocompletion
 ===============================
 
-Task file of Laravel that run via artisan to generate helper file for autocompletion in Netbeans. <a href="example_ide_helper.php">Example code that I generated</a>.
+Task file of Laravel that run via artisan to generate helper file for autocompletion in Netbeans. <a href="https://github.com/ethaizone/laravel-netbeans-autocompletion/blob/master/example_ide_helper.php">Example code that I generated</a>.
 
 If you see problem, please open issue. Thanks!
 
