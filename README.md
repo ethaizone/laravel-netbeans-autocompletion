@@ -1,3 +1,9 @@
+This project isn't contine.
+==========================
+
+I don't have time to maintenance it. Please use this project. https://github.com/barryvdh/laravel-ide-helper 
+
+
 laravel-netbeans-autocompletion
 ===============================
 
